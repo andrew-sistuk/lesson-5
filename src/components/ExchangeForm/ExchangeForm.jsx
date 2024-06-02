@@ -8,7 +8,7 @@ export const ExchangeForm = () => {
         <RiExchangeDollarFill className={styles.icon} />
       </button>
 
-      <input title="Request format 15 USD in UAH" className={styles.input} />
+      <input title="Request format 15 USD in UAH" placeholder='15 USD in UAH' className={styles.input} pattern='^\d+(\.\d{1,2})?\s[a-zA-Z]{3}\sin\s[a-zA-Z]{3}$' />
     </form>
   );
 };

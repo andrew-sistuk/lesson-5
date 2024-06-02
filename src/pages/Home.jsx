@@ -1,12 +1,12 @@
-import { Container, Heading, Section } from 'components';
+import { Container, ExchangeForm, Heading, Section } from 'components';
 
-const Home = () => {
+export const Home = () => {
   const isError = false;
 
   return (
     <Section>
       <Container>
-        <Heading info title="What currencies do you want to exchange?🙂" />
+        <ExchangeForm/>
 
         {isError && (
           <Heading
@@ -18,5 +18,3 @@ const Home = () => {
     </Section>
   );
 };
-
-export default Home;

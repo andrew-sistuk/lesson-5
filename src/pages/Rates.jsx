@@ -2,7 +2,7 @@ import { Wave } from 'react-animated-text';
 
 import { Container, Heading, Section } from 'components';
 
-const Rates = () => {
+export const Rates = () => {
   const isError = false;
 
   return (
@@ -30,5 +30,3 @@ const Rates = () => {
     </Section>
   );
 };
-
-export default Rates;
